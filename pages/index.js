@@ -1,7 +1,11 @@
+import Header from "../components/Header";
+import LeftNav from "../components/LeftNav";
+
 export default function Home() {
   return (
-    <div className="text-center">
-      <h1 className="font-black text-8xl">Hello World !</h1>
+    <div className="flex items-start justify-between">
+      <LeftNav />
+      <Header />
     </div>
   );
 }
